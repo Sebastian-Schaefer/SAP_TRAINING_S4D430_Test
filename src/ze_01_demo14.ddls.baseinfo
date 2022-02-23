@@ -1,0 +1,17 @@
+{
+"BASEINFO":
+{
+"FROM":
+[
+"SCARR",
+"SFLIGHT",
+"SPFLI"
+],
+"ASSOCIATED":
+[
+"SBOOK"
+],
+"BASE":
+[]
+}
+}

@@ -1,0 +1,7 @@
+@EndUserText.label: 'Demo 14: Authorithy Checks'
+@MappingRole: true
+define role ZI_01_DEMO02 {
+ grant select on ZI_01_DEMO02
+  where (CarrierCarrid) = aspect pfcg_auth(S_CARRID, CARRID, ACTVT = '03');
+                        
+}
